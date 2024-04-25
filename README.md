@@ -48,7 +48,7 @@ batch_size = 32
 Top k picks = 10
 Loss function: Cross entroy loss function
 
-**Why Cross Entropy Loss Function: **
+**Why Cross Entropy Loss Function:**
 
 We use the cross-entropy loss function in classification tasks, including recommendation systems, because it measures the difference between predicted probabilities and actual class labels, effectively penalizing incorrect predictions by a larger margin compared to correct predictions. Additionally, it encourages the model to output confident probabilities for correct classes, aiding in better optimization and model convergence.
 
