@@ -9,6 +9,7 @@ They achieve this goal by analyzing past user interactions such as ratings, clic
 **Objective:**
 
 
+**Data:**
 
 
 
@@ -32,6 +33,10 @@ Top k picks = 10
 
 Our custom sequntial model with a stack of Linear layers and ReLU activation functions are trained for 10,12 epochs in different experimental setup. The best model parameters are given above.
 
+Architecture:
+
+![image](https://github.com/Venkata-Bhargavi/Recommender-System-Using-Neural-Networks/assets/114631063/2586e810-236c-4272-a56a-ce085aaef671)
+
 
 ## Results
 
@@ -44,6 +49,12 @@ The following are the various experiemntal setup and their respective results
 
 <img width="511" alt="image" src="https://github.com/Venkata-Bhargavi/Recommender-System-Using-Neural-Networks/assets/114631063/81a9009c-775f-44d8-a311-319c147c2c3e">
 
+
 - Best performance has been recorded with the following setup
+  
   <img width="637" alt="image" src="https://github.com/Venkata-Bhargavi/Recommender-System-Using-Neural-Networks/assets/114631063/f89328af-58e1-46f7-a03b-00388fd94f47">
+
+**Re-Ranking:**
+
+To further improve Hit Rate and NDCG scores, re-ranking techniques has been used to get best user specific recommendations in the top-k results.
 
