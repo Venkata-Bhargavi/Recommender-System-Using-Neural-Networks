@@ -6,6 +6,10 @@ Recommender Systems are sophisticated algorithms designed to provide product-rev
 
 They achieve this goal by analyzing past user interactions such as ratings, click, purchases. These algorithms can be collaborative (based on user interaction) or content-based (item features). 
 
+**Objective:**
+
+
+
 
 
 ## Training Setup:
@@ -20,4 +24,26 @@ They achieve this goal by analyzing past user interactions such as ratings, clic
 `train.csv`, `evaluation.csv` : Contains 80:20 split of the entire dataset
 
 
+Epoch: 10
+Hidden Layers stack: [128,,64,32,16,8]
+Total params: 12,441,185
+batch_size = 32
+Top k picks = 10
+
+Our custom sequntial model with a stack of Linear layers and ReLU activation functions are trained for 10,12 epochs in different experimental setup. The best model parameters are given above.
+
+
+## Results
+
+We use the following metrics to evaluate the performance
+
+NDCG :	Normalized discounted cumulative gain
+HR :	Hit Rate
+
+The following are the various experiemntal setup and their respective results
+
+<img width="511" alt="image" src="https://github.com/Venkata-Bhargavi/Recommender-System-Using-Neural-Networks/assets/114631063/81a9009c-775f-44d8-a311-319c147c2c3e">
+
+- Best performance has been recorded with the following setup
+  <img width="637" alt="image" src="https://github.com/Venkata-Bhargavi/Recommender-System-Using-Neural-Networks/assets/114631063/f89328af-58e1-46f7-a03b-00388fd94f47">
 
