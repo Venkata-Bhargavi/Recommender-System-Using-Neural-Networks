@@ -46,6 +46,11 @@ Hidden Layers stack: [128,,64,32,16,8]
 Total params: 12,441,185
 batch_size = 32
 Top k picks = 10
+Loss function: Cross entroy loss function
+
+**Why Cross Entropy Loss Function: **
+
+We use the cross-entropy loss function in classification tasks, including recommendation systems, because it measures the difference between predicted probabilities and actual class labels, effectively penalizing incorrect predictions by a larger margin compared to correct predictions. Additionally, it encourages the model to output confident probabilities for correct classes, aiding in better optimization and model convergence.
 
 Our custom sequntial model with a stack of Linear layers and ReLU activation functions are trained for 10,12 epochs in different experimental setup. The best model parameters are given above.
 
