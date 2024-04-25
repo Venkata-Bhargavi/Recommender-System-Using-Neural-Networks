@@ -98,8 +98,9 @@ NDCG: 1.0
 
 
 
+Presentaion Slides Link : https://docs.google.com/presentation/d/1Hrc1IQDUysQvHoKmKBHEkNj4yThKzBOYaa28B9ljvwA/edit#slide=id.p
 
-
+Document Link: https://northeastern-my.sharepoint.com/:w:/r/personal/firdawsmohammad_j_northeastern_edu/_layouts/15/Doc.aspx?sourcedoc=%7B4952B76F-3825-40FA-ADFA-C8492817FE44%7D&file=Neural%20Networks%20Report.docx&fromShare=true&action=default&mobileredirect=true&isSPOFile=1&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNDAzMTQxNDcyMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D
 
 **GPU-Utilization:**
 
