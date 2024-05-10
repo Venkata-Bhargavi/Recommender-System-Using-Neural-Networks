@@ -42,10 +42,15 @@ Number of Unique Genres: 951
 
 
 Epoch: 10
+
 Hidden Layers stack: [128,,64,32,16,8]
+
 Total params: 12,441,185
+
 batch_size = 32
+
 Top k picks = 10
+
 Loss function: Cross entroy loss function
 
 **Why Cross Entropy Loss Function:**
